@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_self_define_lifecycle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="自定义LifeCycleOwner"/>
+
+    <Button
+        android:id="@+id/btn_life_cycle_service"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="LifeCycleService的使用"/>
+
+</LinearLayout>
